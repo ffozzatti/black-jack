@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main button {
+    margin: 10px 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+main .inGame .purchase,
+main .inGame .stop {
+    display: none;
+}
